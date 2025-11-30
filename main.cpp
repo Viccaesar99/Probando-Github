@@ -1,11 +1,20 @@
 #include <iostream>
 
 int main() {
-    // TODO: Agregar una funcion que devuelva la suma
-    // de dos valores introducidos por el usuario
+    
+
+    int a, b, result = 0;
+    std::cout << "Suma de dos enteros" << std::endl;
+    std::cout << "Ingrese el primer valor: ";
+    std::cin >> a;
+    std::cout << "Ingrese el segundo valor: ";
+    std::cin >> b;
+
+    result = a + b;
+    std::cout << "El resultado es " << result << std::endl;
 
 
-    std::cout << "Hola Mundo" << std::endl;
+   
 
     return 0;
 }
